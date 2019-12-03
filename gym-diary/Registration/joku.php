@@ -78,7 +78,7 @@
     $conn = OpenCon();
     echo "";
     CloseCon($conn);
-$link = mysqli_connect("localhost", "root", "salasana", "registration");
+$link = mysqli_connect("localhost", "root", "", "registration");
 if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
