@@ -46,7 +46,7 @@
 <?php
 /* Attempt MySQL server connection. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-$link = mysqli_connect("localhost", "root", "salasana", "registration");
+$link = mysqli_connect("localhost", "root", "", "registration");
  
 // Check connection
 if($link === false){
